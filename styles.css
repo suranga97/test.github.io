@@ -10,6 +10,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     max-width: 1440px;
+    align-items: center;
 }
 p{line-height: 20px;}
 
