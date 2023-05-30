@@ -34,6 +34,7 @@ p{line-height: 20px;
     height: 100%;
     width: 100%;
     padding: 5px 0px 5px 10px;
+    cursor: text;
 }
 
 .search{
@@ -55,6 +56,7 @@ p{line-height: 20px;
 .menu{
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 .menu-icon{
     height:20px; 
@@ -82,19 +84,23 @@ main{
     color: rgb(255, 255, 255);
     font-size: 12vmin;
 }
-.button2{
-    width: 30vmin;
-    height: 6vmin;
-    color: rgb(0, 119, 167);
-    font-weight: bold;
-    border-style: none;
-}
+
 .image-from{
     color: rgb(227, 253, 255);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2vmin;
 }
+
+.button2{
+    width: 30vmin;
+    height: 6vmin;
+    color: rgb(0, 119, 167);
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer; 
+}
+
 .main-image{
     width: 100vmin;
     height: 100%;
@@ -411,8 +417,9 @@ main{
 
 /* section2 */
     .hero2{
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: column;
+
         
     }
     .line{
@@ -512,25 +519,25 @@ main{
 }
 
 /* section6 */
-.section6{
-    background-color: rgb(4, 221, 185);
-    margin-top: 50px;
-    padding-right: 100px;
-    color: white;
-}
-.section6B{
-    background-color: rgb(4, 221, 185);
-    border-color: white;
-    border-style:solid;
-    color: white;
-    height: 30px;
-    width: 120px;
-    margin-top: 10px;
+    .section6{
+         background-color: rgb(4, 221, 185);
+         margin-top: 50px;
+         padding-right: 100px;
+         color: white;
+    }
+    .section6B{
+         background-color: rgb(4, 221, 185);
+         border-color: white;
+         border-style:solid;
+         color: white;
+         height: 30px;
+         width: 120px;
+         margin-top: 10px;
+    }
 
-}
-.section6h1{
-    font-size: 18vmin;
-}
+    .section6h1{
+         font-size: 18vmin;
+    }
 
 /* section7 image-gallery */
     .grid-container {
@@ -539,7 +546,7 @@ main{
         padding: 0;
       }
 
-      /* section8 */
+/* section8 */
 .section8{
     display: flex;
     flex-direction: column;
@@ -566,6 +573,72 @@ main{
     width: 160px;
     height: 40px;
     margin-top: 20px;
+}
+/* footer section9 */
+.footer{
+    background-color: rgb(0, 217, 255);
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section9{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section9-2{
+    padding-left: 50px;
+}
+.section9h1{
+    font-size: 8vmin;
+    padding-top: 20px;
+ 
+}
+.section9-1{
+
+}
+.section9p1{
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.socialmedia1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+}
+.fbicon{
+    width: 20px;
+}
+.twicon{
+    width: 20px;
+}
+.insicon{
+    width: 20px;
+}
+.linkicon{
+    width: 20px;
+}
+.contact{
+    letter-spacing: 2px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+.socialmedia2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 120px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
 
