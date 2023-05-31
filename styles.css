@@ -41,7 +41,7 @@ p{line-height: 20px;
     position: absolute;
     top: 0;
     right: 0;
-    width: 20ppx;
+    width: 20px;
     height: 100%;
     border: none;
     background: none;
@@ -57,6 +57,10 @@ p{line-height: 20px;
     border: none;
     background-color: transparent;
     cursor: pointer;
+    box-shadow: 0px 0px 0px #494949;
+}
+.menu:hover{
+    box-shadow: 5px 5px 5px #494949;
 }
 .menu-icon{
     height:20px; 
@@ -186,8 +190,13 @@ main{
     height: 30px;
     width: 120px;
     margin-top: 10px;
-
-
+    box-shadow: 0px 0px 0px #494949;
+}
+.section4B:hover{
+    box-shadow: 0px 3px 4px rgb(1, 77, 77);
+    border-color: rgb(4, 221, 185);
+    color: rgb(1, 77, 77);
+    background-color: white;
 }
 .section4h1{
     font-size: 100px;
@@ -222,6 +231,12 @@ main{
     color: black;
     border-color: black;
     margin-top: 30px;
+    box-shadow: 0px 0px 0px rgb(1, 77, 77);
+}
+.section5B:hover{
+    box-shadow: 0px 3px 4px rgb(1, 77, 77);
+    border-color:aqua ;
+    color: rgb(1, 77, 77);
 }
 .section5-p2{
     padding-top: 30px;
@@ -251,7 +266,13 @@ main{
     height: 30px;
     width: 120px;
     margin-top: 10px;
-
+    box-shadow: 0px 0px 0px #494949;
+}
+.section6B:hover{
+    box-shadow: 0px 3px 4px rgb(1, 77, 77);
+    border-color: aqua;
+    background-color: white;
+    color: rgb(1, 77, 77);
 }
 .section6h1{
     font-size: 100px;
@@ -315,6 +336,12 @@ main{
     width: 160px;
     height: 40px;
     margin-top: 20px;
+    box-shadow: 0px 0px px #494949;
+}
+.section8B:hover{
+    box-shadow: 0px 3px 4px rgb(1, 77, 77);
+    border-color: aqua;
+    color: rgb(1, 77, 77);
 }
 /* footer section9 */
 .footer{
@@ -382,263 +409,5 @@ main{
     margin-right: auto;
 }
 
-/* mobile responsive */
-@media only screen and (max-width:850px){
 
-/* main  */
-main{
-    background-color: rgb(20, 135, 180);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
-    padding-bottom: 60px;   
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.main-header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
-    }
-.section1{
-
-}
-.main-image{
-        height: 30vmin;
-        width: auto;
-        padding-left: 20px;
-    }
-.Hero1{
-    font-size: 10vmin;
-}
-    
-
-/* section2 */
-    .hero2{
-        display: flex;
-        flex-direction: column;
-
-        
-    }
-    .line{
-        margin-top:60px;
-    }
-/* section3 */
-.section3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.image2{
-    width: 70vmin;
-    height: auto;
-}
-
-.section3R{
-    padding-top: 40px;
-}
-.section3 h1{
-    font-size: 40px;
-}
-.section3B{
-    height: 40px;
-    width: 160px;
-    background-color: rgb(0, 119, 167);
-    color: white;
-    border: none;
-    margin-top: 30px;
-}
-.section3-p1{
-    opacity: 0.8;
-}
-.section3-p2{
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-/* section4 */
-.section4{
-    background-color: rgb(0, 217, 255);
-    margin-top: 50px;
-    color: white;
-    padding-right: 100px;
-}
-.section4B{
-    background-color: rgb(0, 217, 255);
-    border-color: white;
-    border-style:solid;
-    color: white;
-    margin-top: 10px;
-
-
-}
-.section4h1{
-    font-size: 18vmin;
-}
-
-/* section5 */
-.section5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    justify-content: space-between;
-}
-
-.image-2{
-    width: 70vmin;
-    height: auto;
-}
-
-.section5R{
-    padding-top: 40px;
-
-}
-.section5 h1{
-    font-size: 40px;
-}
-.section5B{
-    height: 40px;
-    width: 160px;
-    background-color: white;
-    color: black;
-    border-color: black;
-    margin-top: 30px;
-}
-.section5-p2{
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-.freepik{
-    color: rgb(0, 140, 255);
-    text-decoration: none;
-    
-}
-
-/* section6 */
-    .section6{
-         background-color: rgb(4, 221, 185);
-         margin-top: 50px;
-         padding-right: 100px;
-         color: white;
-    }
-    .section6B{
-         background-color: rgb(4, 221, 185);
-         border-color: white;
-         border-style:solid;
-         color: white;
-         height: 30px;
-         width: 120px;
-         margin-top: 10px;
-    }
-
-    .section6h1{
-         font-size: 18vmin;
-    }
-
-/* section7 image-gallery */
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        padding: 0;
-      }
-
-/* section8 */
-.section8{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 40px;
-    
-}
-.section8-1{
-    padding-right: 80px;
-    max-width: 400px;
-    font-size: 30px;
-}
-.section8-2{
-    max-width: 400px;
-}
-.section8-3{
-    max-width: 400px;
-}
-.section8B{
-    color: black;
-    background-color: white;
-    width: 160px;
-    height: 40px;
-    margin-top: 20px;
-}
-/* footer section9 */
-.footer{
-    background-color: rgb(0, 217, 255);
-    margin-top: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.section9{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section9-2{
-    padding-left: 50px;
-}
-.section9h1{
-    font-size: 8vmin;
-    padding-top: 20px;
- 
-}
-.section9-1{
-
-}
-.section9p1{
-    font-size: 18px;
-    line-height: 30px;
-
-}
-.socialmedia1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 90px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    
-}
-.fbicon{
-    width: 20px;
-}
-.twicon{
-    width: 20px;
-}
-.insicon{
-    width: 20px;
-}
-.linkicon{
-    width: 20px;
-}
-.contact{
-    letter-spacing: 2px;
-    padding-top: 12px;
-    font-size: 20px;
-}
-.socialmedia2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 120px;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
 
