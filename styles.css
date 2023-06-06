@@ -57,19 +57,20 @@ p{line-height: 20px;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    box-shadow: 0px 0px 0px #494949;
 }
 .menu:hover{
-    box-shadow: 5px 5px 5px #494949;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px #494949;
 }
 .menu-icon{
     height:20px; 
 }
-.bt{
+
+/* .bt{
     background-color: transparent;
     height: 30px;
     border: 0.5px;
-}
+} */
 
 /* main */
 main{
@@ -102,7 +103,15 @@ main{
     color: rgb(0, 119, 167);
     font-weight: bold;
     border-style: none;
+    border-radius: 3px;
     cursor: pointer; 
+}
+.button2:hover{
+    box-shadow: 0px 3px 4px rgb(1, 77, 77);
+    color: rgb(26, 161, 161);
+    background-color: white;
+    font-weight: bold;
+
 }
 
 .main-image{
@@ -110,6 +119,7 @@ main{
     height: 100%;
 
 }
+
 
 /* section2 */
 .hero2{
@@ -121,6 +131,7 @@ main{
     padding-left: 100px;
     padding-right: 100px;
 }
+
 .line{
     width: 35px;
     height: 5px;
@@ -139,14 +150,14 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
     justify-content: space-between;
 }
 
 .image2{
-    width: 70vmin;
+    width: 80vmin;
     height: auto;
 }
 
@@ -162,7 +173,16 @@ main{
     background-color: rgb(0, 119, 167);
     color: white;
     border: none;
+    border-radius: 3px;
     margin-top: 30px;
+    cursor: pointer;
+}
+.section3B:hover{
+    box-shadow: 0px 3px 4px rgb(1, 77, 77);
+    border-color: rgb(4, 221, 185);
+    color: rgb(26, 161, 161);
+    background-color: white;
+    font-weight: bold;
 }
 .section3-p1{
     opacity: 0.8;
@@ -190,6 +210,7 @@ main{
     height: 30px;
     width: 120px;
     margin-top: 10px;
+    cursor: pointer;
     box-shadow: 0px 0px 0px #494949;
 }
 .section4B:hover{
@@ -214,7 +235,7 @@ main{
 }
 
 .image-2{
-    width: 70vmin;
+    width: 80vmin;
     height: auto;
 }
 
@@ -231,6 +252,7 @@ main{
     color: black;
     border-color: black;
     margin-top: 30px;
+    cursor: pointer;
     box-shadow: 0px 0px 0px rgb(1, 77, 77);
 }
 .section5B:hover{
@@ -266,6 +288,7 @@ main{
     height: 30px;
     width: 120px;
     margin-top: 10px;
+    cursor: pointer;
     box-shadow: 0px 0px 0px #494949;
 }
 .section6B:hover{
@@ -336,6 +359,7 @@ main{
     width: 160px;
     height: 40px;
     margin-top: 20px;
+    cursor: pointer;
     box-shadow: 0px 0px px #494949;
 }
 .section8B:hover{
@@ -343,10 +367,121 @@ main{
     border-color: aqua;
     color: rgb(1, 77, 77);
 }
+/* Registration form */
+.registration-form{
+    width: 100%;
+    padding: 50px 100px 50px 100px;
+    margin-top: 70px;
+    background: #011b53;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.re-image{
+    width: 300px;   
+}
+.re2{
+    padding-left: 100px;
+}
+.registration-form .titel{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+/* .registration-form.titel::before{
+    content:'';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: #494949;
+} */
+.registration-form form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+}
+.input-box{
+    width: calc(100%/ 2 - 20PX);
+    margin-top: 20px;
+}
+.input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+.input-box .details{
+    display: block;
+    margin-bottom: 10px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #044ff0;
+}
+.gender-detail{
+    color: white;
+    margin-top: 30px;
+}
+.gender-title{
+    font-size: 20px;
+}
+form .gender-detail .category{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+    width: 350px;
+}
+.gender-detail .category label{
+    display: flex;
+    align-items: center;
+}
+.gender-detail .category .dot{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-Color: #d9d9d9;
+    background: black;
+}
+form input[type="radio"]{
+    display: none;
+}
+form .button-r{
+    height: 45px;
+    margin-top: 30px;
+}
+
+.button-r input{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    border: 50px;
+    background: white;
+}
+.button-r input:hover{
+    box-shadow: 0px 3px 4px rgb(0, 0, 0);
+    color: rgb(1, 77, 77);
+    border-radius: 3px;
+    cursor: pointer;
+    outline: 2px blue;
+    border: 5px;
+}
 /* footer section9 */
 .footer{
     background-color: rgb(0, 217, 255);
-    margin-top: 60px;
+    margin-top: 0px;
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
@@ -383,15 +518,19 @@ main{
 }
 .fbicon{
     width: 20px;
+    cursor: pointer;
 }
 .twicon{
     width: 20px;
+    cursor: pointer;
 }
 .insicon{
     width: 20px;
+    cursor: pointer;
 }
 .linkicon{
     width: 20px;
+    cursor: pointer;
 }
 .contact{
     letter-spacing: 2px;
