@@ -7,7 +7,7 @@
     <title>Stay At Home</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./responsive.css">
-
+    <script defer src="./index.js"></script>
 </head>
 
 <body>
@@ -224,38 +224,43 @@
     <div class="registration-form">
         <section class="re1">
             <img class="re-image" src="assets/account.png" alt="">
-
         </section>
         <section class="re2">
         <div class="titel">Registration</div>
-        <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <span class="details">Full Name</span>
-                    <input type="text" placeholder="Enter Your Full Name" required>
+        <form id="form" action="/">
+            <!-- <div class="user-details"> -->
+                <div class="input-control">
+                    <label for="FullName">Full Name</label>
+                    <input type="text" placeholder="Enter Your User name" id="fullname" name="FullName">
+                    <div class="error"></div>
                 </div>
-                <div class="input-box">
-                    <span class="details">Username</span>
-                    <input type="text" placeholder="Enter Your Username" required>
+                <div class="input-control">
+                    <label for="Username">User Name</label>
+                    <input type="text" placeholder="Enter Your User name" id="username" name="Username">
+                    <div class="error"></div>
                 </div>
-                <div class="input-box">
-                    <span class="details">E-mail</span>
-                    <input type="text" placeholder="Enter Your E-mail" required>
+                <div class="input-control">
+                    <label for="email">E-mail</label>
+                    <input type="text" placeholder="Enter Your e-mail" id="email" name="email">
+                    <div class="error"></div>
                 </div>
-                <div class="input-box">
-                    <span class="details">Phone Number</span>
-                    <input type="text" placeholder="Enter Your Phone Number" required>
+                <div class="input-control">
+                    <label for="PhoneNumber">Phone Number</label>
+                    <input type="text" placeholder="Enter Your Phone Number" id="phonenumber" name="PhoneNumber">
+                    <div class="error"></div>
                 </div>
-                <div class="input-box">
-                    <span class="details">Password</span>
-                    <input type="password" placeholder="Enter Your Password" required>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Your Password" id="password" name="Password">
+                    <div class="error"></div>
                 </div>
-                <div class="input-box">
-                    <span class="details">Confirm Password</span>
-                    <input type="password" placeholder="Confirm Your Password" required>
+                <div class="input-control">
+                    <label for="Password2">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Your Password" id="password2" name="Password2">
+                    <div class="error"></div>
                 </div>
-            </div>
-            <div class="gender-detail">
+            <!-- </div> -->
+            <div class="gender-details">
                 <span class="gender-title">Gender</span>
 
                 <input type="radio" name="gender" id="dot-1">
@@ -277,11 +282,12 @@
                 </div>
             </div>
             <div class="button-r">
-                <input type="submit" value="Register">
+                <input class="bt" type="submit" value="Register">
              </div>
             </form>
-          </div>
-        </section>
+        </section>    
+    </div>
+        
 
 <!-- footer section9 -->
 <section class="footer">

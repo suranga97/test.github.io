@@ -318,14 +318,32 @@
     .registration-form{
         width: 100%;
         padding: 50px 50px 50px 50px;
+        margin-top: 70px;
+        background: #011b53;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
     .re-image{
-        width: 0;
+        width: auto;
+        height: 35vh;   
     }
     .re2{
-        padding-left: 0;
+        padding-left: 0px;
     }
-
+    .registration-form .titel{
+        font-size: 35px;
+        font-weight: 500;
+        color: white;
+        padding-bottom: 20px;
+    }
+    form .gender-details .category{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            width: 350px;
+        }
 
     /* footer section9 */
     
@@ -477,16 +495,7 @@
             color: rgb(227, 253, 255);
             padding-top: 20px;
             padding-bottom: 20px;
-            font-size: 2vmin;
-        }
-        
-        .button2{
-            width: 30vmin;
-            height: 6vmin;
-            color: rgb(0, 119, 167);
-            font-weight: bold;
-            border-style: none;
-            cursor: pointer; 
+            font-size: 3vmin;
         }
         
         .main-image{
@@ -688,29 +697,32 @@
         
         /* Registration form */
         .registration-form{
-                width: 100%;
-                padding: 50px 50px 50px 50px;
-                flex-direction: column;
-            }
+            width: 100%;
+            padding: 50px 10px 50px 10px;
+            margin-top: 70px;
+            background: #011b53;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
         .re-image{
             width: 0;
+            height: 0;   
         }
         .re2{
-            padding-left: 00;
+            padding-left: 0px;
         }
-        .registration-form form .user-details{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-        .input-box{
-                width: 100%;
-                margin-top: 20px;
-            }
-        form .gender-detail .category{
+        .registration-form .titel{
+            font-size: 35px;
+            font-weight: 500;
+            color: white;
+            padding-bottom: 20px;
+        }
+        form .gender-details .category{
                 display: flex;
                 justify-content: space-between;
-                margin: 14px 0;
+                margin: 6px 0;
                 width: 250px;
             }
         /* footer */
