@@ -86,18 +86,18 @@
     main{
         background-color: rgb(0, 119, 167);
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
         align-items: center;
         justify-content: space-between;
-        padding-top: 60px;
-        padding-bottom: 60px;   
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;   
+        padding-left: 50px;
+        padding-right:50px;
     }
     
     .Hero1{
         color: rgb(255, 255, 255);
-        font-size: 12vmin;
+        font-size: 8vmin;
     }
     
     .image-from{
@@ -108,7 +108,7 @@
     }
     
     .button2{
-        width: 30vmin;
+        width: 25vmin;
         height: 6vmin;
         color: rgb(0, 119, 167);
         font-weight: bold;
@@ -117,10 +117,9 @@
     }
     
     .main-image{
-        width: 70vmin;
+        width: 60vmin;
         height: 100%;
-        padding-top: 30px;
-    
+        padding-top: 0px;
     }
     
     /* section2 */
@@ -327,7 +326,7 @@
     }
     .re-image{
         width: auto;
-        height: 35vh;   
+        height: 25vh;   
     }
     .re2{
         padding-left: 0px;
@@ -502,7 +501,6 @@
             width: 70vmin;
             height: 100%;
             padding-top: 30px;
-        
         }
         
         /* section2 */
