@@ -117,7 +117,7 @@
     }
     
     .main-image{
-        width: 60vmin;
+        width: 400px;
         height: 100%;
         padding-top: 0px;
     }
@@ -132,6 +132,10 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .hero2 section{
+        width:100%;
+        padding-left: 0px;
+        }
     .line{
         width: 35px;
         height: 5px;
@@ -156,16 +160,14 @@
         padding-top: 50px;
         justify-content: space-between;
     }
-    
-    
     .image2{
         width: 80vmin;
         height: auto;
     }
-    
     .section3R{
-        padding-top: 40px;
-        padding-left: 0px;
+        padding-top: 20px;
+        width: 80%;
+        padding-left: 30px;
     }
     .section3 h1{
         font-size: 40px;
@@ -225,8 +227,9 @@
     }
     
     .section5R{
-        padding-top: 40px;
-        padding-left: 0px;
+        padding-top: 20px;
+        width: 80%;
+        padding-left: 30px;
     
     }
     .section5 h1{
@@ -326,7 +329,7 @@
     }
     .re-image{
         width: auto;
-        height: 25vh;   
+        height: 40vmin;   
     }
     .re2{
         padding-left: 0px;

@@ -84,19 +84,16 @@ main{
     padding-left: 100px;
     padding-right: 100px;
 }
-
 .Hero1{
     color: rgb(255, 255, 255);
     font-size: 12vmin;
 }
-
 .image-from{
     color: rgb(227, 253, 255);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2vmin;
 }
-
 .button2{
     width: 30vmin;
     height: 6vmin;
@@ -112,15 +109,18 @@ main{
     color: rgb(26, 161, 161);
     background-color: white;
     font-weight: bold;
-
 }
-
 .main-image{
-    width: 100vmin;
-    height: 100%;
-
+    padding-left: 10px;
+    width: 500px;
+    height: auto;
 }
-
+/* .m-section2{
+    width: 60%;
+}
+.m-section1{
+    width: 50%;
+} */
 
 /* section2 */
 .hero2{
@@ -132,7 +132,10 @@ main{
     padding-left: 100px;
     padding-right: 100px;
 }
-
+.hero2 section{
+    width:25%;
+    padding-left: 15px;
+    }
 .line{
     width: 35px;
     height: 5px;
@@ -142,7 +145,6 @@ main{
 .hero2p{
     opacity: 0.5;
     padding-top: 20px;
-    width: 250px;
     font-style: italic;
 }
 
@@ -158,11 +160,10 @@ main{
 }
 
 .image2{
-    width: 80vmin;
-    height: auto;
-}
+  width: 70vmin;}
 
 .section3R{
+    width: 40%;
     padding-left: 30px;
 }
 .section3 h1{
@@ -199,9 +200,12 @@ main{
     margin-top: 50px;
     padding-top: 40px;
     padding-left: 100px;
-    padding-right: 500px;
+    padding-right: px;
     padding-bottom: 40px;
     color: white;
+}
+.p4{
+    width: 70%;
 }
 .section4B{
     background-color: rgb(0, 217, 255);
@@ -236,10 +240,15 @@ main{
 }
 
 .image-2{
-    width: 80vmin;
+    width: 70vmin;
     height: auto;
 }
 
+  
+.section5R{
+      width: 40%;
+      padding-left: 30px;
+  }
 .section5R{
     padding-left: 30px;
 }
@@ -267,8 +276,7 @@ main{
 }
 .freepik{
     color: rgb(0, 140, 255);
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 /* section6 */
@@ -277,9 +285,11 @@ main{
     margin-top: 50px;
     padding-top: 40px;
     padding-left: 100px;
-    padding-right: 500px;
     padding-bottom: 40px;
     color: white;
+}
+.p6{
+    width: 70%;
 }
 .section6B{
     background-color: rgb(4, 221, 185);
@@ -340,8 +350,7 @@ main{
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 40px;
-    
+    padding-top: 40px;  
 }
 .section8-1{
     padding-right: 80px;
@@ -370,7 +379,7 @@ main{
 }
 /* Registration form */
 .registration-form{
-    width: 100%;
+    /* width: 100%; */
     padding: 50px 100px 50px 100px;
     margin-top: 70px;
     background: #011b53;
@@ -381,7 +390,7 @@ main{
 }
 .re-image{
     width: auto;
-    height: 40vh;   
+    height: 40vmin;   
 }
 .re2{
     padding-left: 100px;
