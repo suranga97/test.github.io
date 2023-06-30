@@ -8,7 +8,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1920px;
+    max-width: 1680px;
     margin: auto;
 }
 p{line-height: 20px;
@@ -78,7 +78,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 60px;
     padding-bottom: 60px;   
     padding-left: 100px;
@@ -86,7 +86,7 @@ main{
 }
 .Hero1{
     color: rgb(255, 255, 255);
-    font-size: 12vmin;
+    font-size: 9vmin;
 }
 .image-from{
     color: rgb(227, 253, 255);
@@ -95,10 +95,10 @@ main{
     font-size: 2vmin;
 }
 .button2{
-    width: 30vmin;
-    height: 6vmin;
+    width: 25vmin;
+    height: 5vmin;
     color: rgb(0, 119, 167);
-    font-size: 2vmin;
+    font-size: 2.4vmin;
     font-weight: bold;
     border-style: none;
     border-radius: 3px;
@@ -112,14 +112,15 @@ main{
 }
 .main-image{
     padding-left: 10px;
-    width: 500px;
-    height: auto;
+    width: 800px;
+    height: 100%;
+    padding-top: 30px;  
 }
-/* .m-section2{
-    width: 60%;
+/* main .m-section2{
+    width: 3/5;
 }
-.m-section1{
-    width: 50%;
+main.m-section1{
+    width: 2/5;
 } */
 
 /* section2 */
@@ -156,15 +157,15 @@ main{
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
-    justify-content: space-between;
+    
 }
-
 .image2{
-  width: 70vmin;}
+  width: 60vmin;
+  height: 100%;}
 
 .section3R{
     width: 40%;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .section3 h1{
     font-size: 40px;
@@ -236,22 +237,19 @@ main{
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 50px;
-    justify-content: space-between;
+    
 }
 
 .image-2{
-    width: 70vmin;
+    width: 60vmin;
     height: auto;
 }
 
   
 .section5R{
       width: 40%;
-      padding-left: 30px;
+      padding-left: 50px;
   }
-.section5R{
-    padding-left: 30px;
-}
 .section5 h1{
     font-size: 40px;
 }
@@ -386,7 +384,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .re-image{
     width: auto;
@@ -444,7 +442,7 @@ main{
 } */ 
 .input-control{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 .input-control label{
     color: white;
